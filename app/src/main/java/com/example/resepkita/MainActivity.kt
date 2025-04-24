@@ -463,6 +463,14 @@ fun OnboardingScreen(onContinueClicked: () -> Unit, modifier: Modifier = Modifie
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Normal
             )
+            Spacer(modifier = Modifier.height(96.dp))
+            Image(
+                painter = painterResource(id = R.drawable.logo),
+                contentDescription = "Chef illustration",
+                modifier = Modifier
+                    .size(200.dp),
+                contentScale = ContentScale.Fit
+            )
         }
 
         Column(
